@@ -5,7 +5,7 @@ CREATE DATABASE competition;
 
 CREATE TABLE Athlete(
 athlete_id INTEGER PRIMARY KEY,
-name VARCHAR(20),
+name VARCHAR(10),
 age integer);
 
 CREATE TABLE Event(
@@ -18,6 +18,11 @@ CREATE TABLE Nation(
 nation_id INTEGER PRIMARY KEY,
 name VARCHAR(30),
 flag VARCHAR(30));
+
+CREATE TABLE test(
+id INTEGER PRIMARY KEY,
+name_id VARCHAR(30),
+flag_name VARCHAR(30));
 
 --Create Table Relations
 
