@@ -5,7 +5,7 @@ CREATE DATABASE competition;
 
 CREATE TABLE Athlete(
 athlete_id INTEGER PRIMARY KEY,
-name VARCHAR(30),
+name VARCHAR(20),
 age integer);
 
 CREATE TABLE Event(
