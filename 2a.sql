@@ -29,6 +29,11 @@ id INTEGER PRIMARY KEY,
 name_id VARCHAR(30),
 flag_name VARCHAR(30));
 
+CREATE TABLE testOnPushingOnGithub(
+id INTEGER PRIMARY KEY,
+name_id VARCHAR(30),
+flag_name VARCHAR(30));
+
 --Create Table Relations
 
 -- 1:n between Team and nation(one Nation can have different team from there but a team can have one nationality)
